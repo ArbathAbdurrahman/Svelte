@@ -12,7 +12,11 @@ export default defineConfig({
         logo: 'logo.html',
         counter: 'counter.html',
         sayHello: 'sayHello.html',
-        globalCounter: 'globalCounter.html'
+        globalCounter: 'globalCounter.html',
+        autoCounter: 'autoCounter.html',
+        user: 'user.html',
+        todo: 'todo.html',
+        article: 'article.html'
       }
     }
   }
