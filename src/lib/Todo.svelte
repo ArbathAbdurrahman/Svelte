@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     const {id, name, done} = $props();
 
 </script>
@@ -7,4 +7,10 @@
 <strike>{id} - {name}</strike>
 {:else}
     {id} - {name}
-{/if}
+{/if} -->
+
+<script>
+    const {id, name} = $props();
+</script>
+
+{id} - {name}
